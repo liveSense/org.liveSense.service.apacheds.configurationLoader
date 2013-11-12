@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-service-apacheds-configurationLoader" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-service-apacheds-configurationLoader" version="${liveSense.service.apacheds.configurationLoader.version}" description="liveSense service apacheds configurationLoader">
+        <feature>liveSense-service-apacheds</feature>
+        <feature>liveSense-core-base</feature>
+        <bundle>mvn:com.github.livesense/org.liveSense.service.apacheds.configurationLoader/${liveSense.service.apacheds.configurationLoader.version}</bundle>
+	</feature>
+</features>
